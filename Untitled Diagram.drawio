@@ -1,32 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2024-03-01T10:05:28.511Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="AaCxR6dngY_kqoXrEfYv" version="24.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T14:42:34.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="WUPAAqeWUmJzxVSTav_a" version="24.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#E6E6E6" math="0" shadow="1">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Class CelestialBody (Abstract)&#xa;" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="374" y="70" width="421" height="250" as="geometry">
+          <mxGeometry x="374" y="70" width="421" height="260" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="- name: String&#xa;+ RADIUS_CONVERSION_FACTOR: double = 71492 (Constant)&#xa;+ MASS_CONVERSION_FACTOR: double = 1.898E27 (Constant)&#xa;+ RADIUS_CONVERSION_FACTOR_SUN: double = 695700 (Constant)&#xa;+ MASS_CONVERSION_FACTOR_SUN: double = 1.98892E30 (Constant)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="ATTRIBUTTER:&#xa;- name: String&#xa;+ RADIUS_CONVERSION_FACTOR: double = 71492&#xa;+ MASS_CONVERSION_FACTOR: double = 1.898E27&#xa;+ RADIUS_CONVERSION_FACTOR_SUN: double = 695700&#xa;+ MASS_CONVERSION_FACTOR_SUN: double = 1.98892E30" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="26" width="421" height="114" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="140" width="421" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="+ CelestialBody(name: String)&#xa;+ getName(): String&#xa;+ toString(): String&#xa;- getMassInKg(): double (Abstract)&#xa;- getRadiusInKm(): double (Abstract)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="140" width="421" height="110" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--5" value="METODER:&#xa;+ CelestialBody(name: String)&#xa;+ getName(): String&#xa;+ toString(): String&#xa;- getMassInKg(): double (Abstract)&#xa;- getRadiusInKm(): double (Abstract)&#xa;+ compareTo(other: CelestialBody): int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="140" width="421" height="120" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Class Star Extends CelestialBody&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="80" y="490" width="360" height="320" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="- name: String&#xa;- effectiveTemp: double&#xa;- MSun: double (Mass in Solar Masses)&#xa;- RSun: double (Radius in Solar Radii)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="ATTRIBUTTER&#xa;- effectiveTemp: double&#xa;- MSun: double (Mass in Solar Masses)&#xa;- RSun: double (Radius in Solar Radii)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="26" width="360" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="+ Star(name: String, MSun: double, RSun: double, effectiveTemp: double)&#xa;+ getRadiusInKm(): double (Converts solar radii to kilometers)&#xa;+ getMassInKg(): double (Converts solar masses to kilograms)&#xa;+ getEffectiveTemp(): double&#xa;+ toString(): String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="METODER:&#xa;+ Star(name: String, MSun: double, RSun: double, effectiveTemp: double)&#xa;+ getRadiusInKm(): double&#xa;+ getMassInKg(): double&#xa;+ getEffectiveTemp(): double&#xa;+ toString(): String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="120" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="F4eGDt-HbZHJmM0UNk_R-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--13" target="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
@@ -39,36 +39,36 @@
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="- name: String&#xa;- centerStar: Star&#xa;- planets: ArrayList&lt;Planet&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="ATTRIBUTTER:&#xa;- name: String&#xa;- centerStar: Star&#xa;- planets: ArrayList&lt;Planet&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="26" width="261.5" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="F4eGDt-HbZHJmM0UNk_R-1" value="+ PlanetSystem(name: String, centerStar: Star)&#xa;+ addPlanet(planet: Planet): void&#xa;+ getPlanetByName(name: String): Planet&#xa;+ toString(): String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
+        <mxCell id="F4eGDt-HbZHJmM0UNk_R-1" value="METODER:&#xa;+ PlanetSystem(name: String, centerStar: Star)&#xa;+ addPlanet(planet: Planet): void&#xa;+ sortPlanetsByMass(): void&#xa;+ getPlanets(): ArrayList&lt;Planet&gt;&#xa;+ compareTo(other: PlanetSystem): int&#xa;+ toString(): String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="140" width="261.5" height="112" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Class Planet Extends NaturalSatellite" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="635.5" y="910" width="430" height="310" as="geometry">
+          <mxGeometry x="635.5" y="910" width="430" height="360" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F4eGDt-HbZHJmM0UNk_R-28" value="- name: String&#xa;- radius: double&#xa;- mass: double&#xa;- rJup: double&#xa;- MJup: double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
+        <mxCell id="F4eGDt-HbZHJmM0UNk_R-28" value="ATTRIBUTTER:&#xa;- name: String&#xa;- radius: double&#xa;- mass: double&#xa;- rJup: double&#xa;- MJup: double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
           <mxGeometry y="26" width="430" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--24" value="+ Planet(name: String, rJup: double, MJup: double, semiMajorAxis: double, &#xa;eccentricity: double, orbitalPeriod: double, centralCelestialBody: CelestialBody)&#xa;+ getRadiusInKm(): double+ getMassInKg(): double&#xa;+ getMassInKgNeptune(): double&#xa;+ getRadiusInKmNeptune(): double&#xa;+ calculateSurfaceGravity(): double&#xa;+ toString(): String+ setName(name: String): void&#xa;+ getRadius(): double+ setRadius(radius: double): void&#xa;+ getMass(): double&#xa;+ setMass(mass: double): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
-          <mxGeometry y="140" width="430" height="170" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--24" value="METODER:&#xa;+ Planet(name: String, rJup: double, MJup: double,&#xa; semiMajorAxis: double, eccentricity: double, &#xa; orbitalPeriod: double, centralCelestialBody: CelestialBody)&#xa;+ getRadiusInKm(): double&#xa;+ getMassInKg(): double&#xa;+ getMassInKgNeptune(): double&#xa;+ getRadiusInKmNeptune(): double&#xa;+ calculateSurfaceGravity(): double&#xa;+ toString(): String&#xa;+ setName(name: String): void&#xa;+ getRadius(): double&#xa;+ setRadius(radius: double): void&#xa;+ getMass(): double&#xa;+ setMass(mass: double): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="zkfFHV4jXpPFQw0GAbJ--17" vertex="1">
+          <mxGeometry y="140" width="430" height="220" as="geometry" />
         </mxCell>
         <mxCell id="F4eGDt-HbZHJmM0UNk_R-2" value="Class NaturalSatellite (Abstract)&#xa;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="641" y="490" width="419" height="280" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F4eGDt-HbZHJmM0UNk_R-3" value="- semiMajorAxis: double&#xa;- eccentricity: double&#xa;- orbitalPeriod: double&#xa;- centralCelestialBody: CelestialBody" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="F4eGDt-HbZHJmM0UNk_R-2" vertex="1">
-          <mxGeometry y="26" width="419" height="94" as="geometry" />
+        <mxCell id="F4eGDt-HbZHJmM0UNk_R-3" value="ATTRIBUTTER:&#xa;- semiMajorAxis: double&#xa;- eccentricity: double&#xa;- orbitalPeriod: double&#xa;- centralCelestialBody: CelestialBody" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="F4eGDt-HbZHJmM0UNk_R-2" vertex="1">
+          <mxGeometry y="26" width="419" height="84" as="geometry" />
         </mxCell>
         <mxCell id="F4eGDt-HbZHJmM0UNk_R-4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="F4eGDt-HbZHJmM0UNk_R-2" vertex="1">
-          <mxGeometry y="120" width="419" as="geometry" />
+          <mxGeometry y="110" width="419" as="geometry" />
         </mxCell>
-        <mxCell id="F4eGDt-HbZHJmM0UNk_R-5" value="+ NaturalSatellite(name: String, semiMajorAxis: double, eccentricity: double, &#xa;orbitalPeriod: double, centralCelestialBody: CelestialBody)&#xa;+ getSemiMajorAxis(): double&#xa;+ setSemiMajorAxis(semiMajorAxis: double): void&#xa;+ getEccentricity(): double&#xa;+ setEccentricity(eccentricity: double): void&#xa;+ getOrbitalPeriod(): double&#xa;+ setOrbitalPeriod(orbitalPeriod: double): void&#xa;+ getCentralCelestialBody(): CelestialBody&#xa;+ setCentralCelestialBody(centralCelestialBody: CelestialBody): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="F4eGDt-HbZHJmM0UNk_R-2" vertex="1">
-          <mxGeometry y="120" width="419" height="160" as="geometry" />
+        <mxCell id="F4eGDt-HbZHJmM0UNk_R-5" value="METODER:&#xa;+ NaturalSatellite(name: String, semiMajorAxis: double, eccentricity: double, &#xa;orbitalPeriod: double, centralCelestialBody: CelestialBody)&#xa;+ getSemiMajorAxis(): double&#xa;+ setSemiMajorAxis(semiMajorAxis: double): void&#xa;+ getEccentricity(): double&#xa;+ setEccentricity(eccentricity: double): void&#xa;+ getOrbitalPeriod(): double&#xa;+ setOrbitalPeriod(orbitalPeriod: double): void&#xa;+ getCentralCelestialBody(): CelestialBody&#xa;+ setCentralCelestialBody(centralCelestialBody: CelestialBody): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="F4eGDt-HbZHJmM0UNk_R-2" vertex="1">
+          <mxGeometry y="110" width="419" height="170" as="geometry" />
         </mxCell>
         <mxCell id="F4eGDt-HbZHJmM0UNk_R-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="F4eGDt-HbZHJmM0UNk_R-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -85,7 +85,7 @@
             <mxPoint x="820" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w-iHXIM-5beS97FDYo6B-0" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.475;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--6">
+        <mxCell id="w-iHXIM-5beS97FDYo6B-0" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.475;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="210" as="sourcePoint" />
             <mxPoint x="251" y="470" as="targetPoint" />
@@ -94,11 +94,38 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w-iHXIM-5beS97FDYo6B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.993;exitY=0.044;exitDx=0;exitDy=0;endArrow=block;endFill=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="w-iHXIM-5beS97FDYo6B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.993;exitY=0.044;exitDx=0;exitDy=0;endArrow=block;endFill=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="630" y="1100" as="targetPoint" />
             <mxPoint x="520" y="1188" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="sNDsSKr3HD4NSjrOb7iJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sNDsSKr3HD4NSjrOb7iJ-0" target="sNDsSKr3HD4NSjrOb7iJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNDsSKr3HD4NSjrOb7iJ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sNDsSKr3HD4NSjrOb7iJ-0" target="sNDsSKr3HD4NSjrOb7iJ-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sNDsSKr3HD4NSjrOb7iJ-0" value="StarCSVFileHandler implements  ObjektFileHandler&lt;Star&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="1320" width="340" height="140" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sNDsSKr3HD4NSjrOb7iJ-2" value="METODER:&#xa;+ writeObjectsToFile&#xa;(objects: List&lt;T&gt;, fileName: String): void&#xa;+ readObjectsFromFile&#xa;(fileName: String): List&lt;T&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="sNDsSKr3HD4NSjrOb7iJ-0">
+          <mxGeometry y="26" width="340" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="sNDsSKr3HD4NSjrOb7iJ-3" value="Interface ObjektFileHandler &lt;T&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="1490" width="220.75" height="140" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sNDsSKr3HD4NSjrOb7iJ-4" value="METODER:&#xa;+ writeObjectsToFile&#xa;(objects: List&lt;T&gt;, fileName: String): void&#xa;+ readObjectsFromFile&#xa;(fileName: String): List&lt;T&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="sNDsSKr3HD4NSjrOb7iJ-3">
+          <mxGeometry y="26" width="220.75" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="sNDsSKr3HD4NSjrOb7iJ-10" value="BRUKER StjerneListe.csv for input / utput" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="1440" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
